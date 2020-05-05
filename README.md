@@ -1,1 +1,2 @@
-MNIST_CNN
+In the MNIST_CNN.py I create a simple CNN with 2 Convolutional layers for handwritten number detection and teach it on MNIST standard dataset. The model shows the quality about 97%. In the .h5 the whole prepared model is stored and in the .json file you can look at it's arcitecture.
+To evaluate the model on real data I made a little dataset of my own handwritten numbers (preprocessing is included in the main .py script). Despite the high quality on test MNIST subset, the model shows pour results on my own testset (only 7 out of 9 right predictions).
